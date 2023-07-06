@@ -159,6 +159,7 @@
     }
     .container{
         margin-top:5rem;
+        align-items:flex-start;
     }
 
     .workstation{
