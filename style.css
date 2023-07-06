@@ -164,7 +164,7 @@
         font-size: 35%;
     }
     .container{
-        margin-top:5rem;
-        align-items:flex-start;
+        position: absolute;
+        top: 5rem
     }
 }
