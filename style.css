@@ -44,12 +44,24 @@
     letter-spacing: 0.25rem;
 }
 
+.gcse-search{
+    display: block;
+    width:100%;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    margin:0 0.25rem;
+    background:none;
+    border: none;
+    color: white;
+    caret-color: white;
+}
+
 .search-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height:55px;
-    width:550px;
+    height:5.5rem;
+    width:55rem;
     background-color: rgb(35, 35, 35);
     margin:3rem 0 0.1rem 0;
     border-radius: 1rem;
@@ -125,10 +137,10 @@
     font-size: 1.75rem;
     color:azure;
     border-radius: 2.5rem;
-    width:10rem;
-    height: 10rem;
+    width:12rem;
+    height: 12rem;
     margin:1.4rem 1.4rem;
-    background: rgb(40, 40, 40);
+    background: rgb(41.5, 41.5, 41.5);
 }
 
 .link-txt:hover{
@@ -139,6 +151,11 @@
     height:5rem;
     width: auto;
     margin:0 2.75rem;
+}
+
+.github{
+    background: white;
+    border-radius: 100%;
 }
 
 @media(max-width:998px){
@@ -155,6 +172,20 @@
 
 @media(max-width:475px){
     *{
-        font-size: 30%;
+        font-size: 40%;
+    }
+    .workstation{
+        flex-direction: column;
+    }
+
+    .favourites,
+    .social-links{
+        width:100%;
+    }
+}
+
+@media (max-width:375px) {
+    *{
+        font-size: 35%;
     }
 }
