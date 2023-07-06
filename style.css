@@ -158,8 +158,8 @@
         font-size: 40%;
     }
     .container{
-        justify-content: flex-star;
-        padding-top: 5rem;
+        justify-content: flex-start;
+        padding-top: 2.5rem;
     }
 }
 
