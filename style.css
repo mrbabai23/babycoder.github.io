@@ -157,23 +157,14 @@
     *{
         font-size: 40%;
     }
-    .container{
-        margin-top:5rem;
-        align-items:flex-start;
-    }
-
-    .workstation{
-        flex-direction: column;
-    }
-
-    .favourites,
-    .social-links{
-        width:100%;
-    }
 }
 
 @media (max-width:375px) {
     *{
         font-size: 35%;
+    }
+    .container{
+        margin-top:5rem;
+        align-items:flex-start;
     }
 }
