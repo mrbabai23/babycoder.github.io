@@ -164,7 +164,7 @@
         font-size: 35%;
     }
     .container{
-        position: absolute;
-        top: 1rem;
+        align-items:none;
+        padding-bottom:5rem;
     }
 }
