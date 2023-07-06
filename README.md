@@ -1,2 +1,2 @@
-# babycoder.github.io
+# homepage.github.io
 This is my homepage
