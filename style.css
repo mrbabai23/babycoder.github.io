@@ -157,6 +157,9 @@
     *{
         font-size: 40%;
     }
+    .search-bar{
+         margin:0.2rem 0 0.1rem 0;
+
     .workstation{
         flex-direction: column;
     }
