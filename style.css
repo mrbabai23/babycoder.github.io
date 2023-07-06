@@ -160,6 +160,7 @@
     .container{
         justify-content: flex-star;
         padding-top: 15rem;
+    }
 }
 
 @media (max-width:375px) {
