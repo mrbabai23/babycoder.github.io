@@ -145,18 +145,21 @@
 @media(max-width:998px){
     *{
         font-size: 55%;
+        box-sizing: border-box;
     }
 }
 
 @media(max-width:768px){
     *{
         font-size: 45%;
+        box-sizing: border-box;
     }
 }
 
 @media(max-width:475px){
     *{
         font-size: 40%;
+        box-sizing: border-box;
     }
     .container{
         justify-content: flex-start;
@@ -167,5 +170,6 @@
 @media (max-width:375px) {
     *{
         font-size: 35%;
+        box-sizing: border-box;
     }
 }
